@@ -18,18 +18,32 @@
     position: absolute;
     /* right: 100%; */
 }
-
 @keyframes fire-animation {
     from {
         right: 100%;
     }
-
+    
     to {
         right: -8%;
     }
 }
 .athena-run {
-    bottom: 0px;
+    bottom: 0rem;
     position: absolute;
     right: 0px;
+}
+.jump {
+    animation: jump 600ms   ease-out;
+
+}
+@keyframes jump {
+    0% {
+        bottom: 0rem
+    }
+    100%{
+    bottom: 07rem
+    }
+    0% {
+    bottom: 0rem
+    }
 }
