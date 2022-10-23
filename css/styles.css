@@ -36,14 +36,15 @@
     animation: jump 600ms   ease-out;
 
 }
+
 @keyframes jump {
     0% {
         bottom: 0rem
     }
-    100%{
-    bottom: 07rem
+    50%{
+        bottom: 07rem
     }
     0% {
-    bottom: 0rem
+        bottom: 0rem
     }
 }
